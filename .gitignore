@@ -1,0 +1,9 @@
+# Block secret environment variables from ever going to GitHub
+.env
+.env.local
+
+# Block heavy installation folders and temporary files
+frontend/node_modules/
+backend/__pycache__/
+backend/venv/
+.DS_Store
