@@ -117,15 +117,15 @@ Aggregates time-series practice data into JSON payloads consumed by dashboard ch
 Cloud-Hobby-Skills-Tracker/
 ├── backend/
 │   ├── requirement.txt
-│   ├── db_services.py
-│   ├── skill.py
-│   ├── practice.py
-│   └── posts.py
+│   ├── aap.py
+│   ├── schemas.py
+│   ├── analytics_servics.py
+│   ├── main.py
+│   └── test_main.py
 │   
 ├── Frontend/
-│   ├── firebase.js
-│   └── app.jsx
-│   
+│  └── Src/app.jsx
+│  
 ├── .env.example
 ├── .gitignore
 └── README.md
